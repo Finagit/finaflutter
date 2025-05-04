@@ -26,6 +26,8 @@ class TodoItem {
 
   TodoItem({required this.title, this.description = ''});
 }
+class TodoHomePage extends StatefulWidget {
+  const TodoHomePage({super.key});
 
   @override
   _TodoHomePageState createState() => _TodoHomePageState();
